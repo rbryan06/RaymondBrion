@@ -26,6 +26,8 @@ class AboutMeViewController: UIViewController,
     
     /* Add frosted blur effect to our background image */
     
+    self.frostedImage.image = UIImage(named: "avatar")
+    
     self.frostedImage.backgroundColor = UIColor.clearColor()
     
     let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.Dark)
