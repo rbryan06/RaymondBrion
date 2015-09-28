@@ -60,6 +60,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D11B48E1BB98D5A00F69263 /* About Me */ = {
+			isa = PBXGroup;
+			children = (
+				4DEB82691BB8CE7D00F761C4 /* AboutMeViewController.swift */,
+				4D6DCB981BB8F84A0018B0FF /* AboutMeDetailsTableViewController.swift */,
+				4D6DCB9A1BB8FBDD0018B0FF /* AboutMeDetailTableViewCell.swift */,
+			);
+			name = "About Me";
+			sourceTree = "<group>";
+		};
 		4D6DCB9C1BB8FC180018B0FF /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,9 +128,7 @@
 		4DEB82681BB8CE5200F761C4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4DEB82691BB8CE7D00F761C4 /* AboutMeViewController.swift */,
-				4D6DCB981BB8F84A0018B0FF /* AboutMeDetailsTableViewController.swift */,
-				4D6DCB9A1BB8FBDD0018B0FF /* AboutMeDetailTableViewCell.swift */,
+				4D11B48E1BB98D5A00F69263 /* About Me */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
